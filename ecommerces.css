@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* Navbar styling*/
+nav{
+    background-color: rgb(183, 132, 140);
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+    box-shadow: 0 0 10px rgb(183, 132, 140);
+}
+#first-head{
+    font-size: 35px;
+    font-weight: bold;
+}
+#sp1{
+    color: rgb(178, 35, 59);
+    font-size: 46px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+li{
+    margin-inline:6px;
+}
+li a{
+    padding: 9px;
+    border-radius: 9px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    outline: 0;
+    transition: 0.6s all linear;
+}
+li a:hover{
+    background-color: white;
+}
+#bar{
+    font-size: 20px;
+    display: none;
+}
+/*main styling*/
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+}
+#main-picture{
+    height:70vh;
+    margin-top: 12px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(183, 132, 140);
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1503342250614-ca440786f637?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1887');
+}
+#main-text{
+    width: 65%;
+    height: 70vh;
+}
+/*internals main-text*/
+#head2{
+    font-size: 3vw;
+    padding: 2px 30px;
+}
+#sp2{
+    font-size: 4vw;
+    color: rgb(178, 35, 59);
+}
+#para{
+    padding: 2px 30px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: rgb(74, 71, 71);
+}
+#btn{
+    padding: 15px;
+    border: none;
+    outline: 0;
+    border-radius: 12px;
+    color: rgb(183, 132, 140);
+    background-color: rgb(178, 35, 59);
+    margin: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.6s all linear;
+}
+#btn:hover{
+    color:white;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+#shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+}
+#shop-pic{
+    width: 15vw;
+    height: 22vh;
+}
+#shop-pic img{
+    object-fit: cover;
+    object-position: center;
+    height: 22vh;
+    width: 15vw;
+    transition: 0.5s linear;
+}
+#shop-pic img:hover{
+    width:17vw;
+}
+/*cards desinging*/
+#card-head{
+    text-align: center;
+    margin: 3rem 0px;
+}
+#shop-head{
+    font-size: 40px;
+}
+#sp3{
+    font-size: 33px;
+    margin-left: 9px;
+    color: rgb(178, 35, 59);
+}
+
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#card{
+    width: 280px;
+    height: 370px;
+    background-color: rgb(183, 132, 140);
+    border-radius: 6px;
+    margin-top: 22px;
+    margin-inline: 70px;
+}
+#cards-pic{
+    width: 100%;
+    height: 241px;
+    border-radius: 6px;
+    transition: 0.2s all linear;
+}
+#cards-pic:hover{
+    height:275px;
+}
+#para2{
+    margin-left: 1rem;
+    font-size: 22px;
+}
+ 
+  /*footer styling*/
+
+  footer{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    width: 100%;
+    height: 305px;
+    background-color:rgb(183, 132, 140);
+    margin-top: 18px;
+  }
+  #ft{
+    width: 30%;
+    height: 75%;
+    border-radius: 12px;
+    color: rgb(178, 35, 59);
+    background-color: rgb(178, 35, 59);
+    padding: 12px;
+    text-align: center;
+  }
+  #ft-head{
+    text-align: center;
+    color: black;
+    border-radius: 12px;
+    font-size: 25px;
+    margin-bottom: 9px;
+  }
+  #para3{
+    font-size: 13px;
+    text-align: center;
+    color: rgb(183, 132, 140);
+  }
+  #icon{
+    text-align: center;
+    padding: 12px;
+    font-size: 19px;
+    color: black;
+    cursor: pointer;
+  }
+  #icon:hover{
+    font-size: 30px;
+  }
+  #ft-para{
+    color: black;
+    font-size: 15px;
+  }
+  /* end of page*/
+
+  #CardPage{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 35px 0px;
+  }
+  #CardText{
+    padding: 15px;
+  }
+  #CardText h1{
+    color: rgb(178, 35, 59);
+    font-size: 50px;
+  }
+  #CardText p{
+    font-size: 19px;
+    margin-bottom:3px;
+  }
+  #CardText a{
+    margin: 6px 12px;
+    position: relative;
+    top: 19px;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: none;
+    outline: 0;
+    border-radius: 8px;
+    background-color: rgb(178, 35, 59);
+    font-weight: bold;
+    box-shadow: 0 0 12px rgb(178, 35, 59);
+  }
